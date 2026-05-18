@@ -1,5 +1,5 @@
 {
-  "expo": {
+ "expo": {
     "name": "cobros-rosio",
     "slug": "cobros-rosio",
     "version": "1.0.0",
@@ -9,9 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.cobrosrosio" 
     },
     "android": {
+      "package": "com.yourname.cobrosrosio",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
