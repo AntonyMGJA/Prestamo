@@ -9,8 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.yourname.cobrosrosio" 
+    "supportsTablet": true,
+    "bundleIdentifier": "com.yourname.cobrosrosio",
+    "infoPlist": {
+      "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.yourname.cobrosrosio",
