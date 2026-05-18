@@ -1,5 +1,5 @@
 {
- "expo": {
+  "expo": {
     "name": "cobros-rosio",
     "slug": "cobros-rosio",
     "version": "1.0.0",
@@ -9,14 +9,13 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-    "supportsTablet": true,
-    "bundleIdentifier": "com.yourname.cobrosrosio",
-    "infoPlist": {
-      "ITSAppUsesNonExemptEncryption": false
+      "supportsTablet": true,
+      "bundleIdentifier": "com.antoniomartinez.cobrosrosio",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "com.yourname.cobrosrosio",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -49,7 +48,7 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-       "extra": {
+    "extra": {
       "router": {},
       "eas": {
         "projectId": "9ee698ec-133d-4e31-8080-44acce3ededd"
